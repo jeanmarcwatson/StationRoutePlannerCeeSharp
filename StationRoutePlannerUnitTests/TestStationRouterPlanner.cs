@@ -131,7 +131,7 @@ namespace StationRoutePlannerUnitTests
 				stationGraph.FindAllRoutes("A", "B");
 
 				/* We should have our original path from A to B now the F node has been removed */
-				Assert.AreEqual(stationGraph.ShortestRoute("AB"), 5);
+				Assert.AreEqual(stationGraph.ShortestRoute("AB"), 6);
 
 				/* Re-test some tests for consistency and to ensure graph integrity preserved */
 				Assert.AreEqual(stationGraph.DistanceForFixedRoute("AD"), 5);

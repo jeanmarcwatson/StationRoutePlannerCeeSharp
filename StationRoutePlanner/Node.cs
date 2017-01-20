@@ -72,6 +72,7 @@ namespace StationPlanner
 		// Helper method to allow an associated neighbours weighting to be returned
 		public int GetWeightForNeighbour(Node neighbour)
 		{
+            // Tests
 			if (HasNeighbour(neighbour))
 			{
 				var index = Neighbours.FindIndex(a => a == neighbour);
