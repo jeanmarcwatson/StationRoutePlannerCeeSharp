@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using StationPlanner;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace StationRoutePlannerUnitTests
 {
@@ -11,6 +12,8 @@ namespace StationRoutePlannerUnitTests
 		[TestMethod]
 		public void TestStationPlanner()
 		{
+
+            Debug.WriteLine("Debug version of TestStationRouterPlanner is executing..");
 
 			List<StationNode> stationNodes = new List<StationNode>() {  new StationNode("A"),
 																		new StationNode("B"),
