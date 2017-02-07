@@ -13,9 +13,9 @@ namespace StationRoutePlannerUnitTests
 		public void TestStationPlannerHolisticFunctionality()
 		{
 
-            /* This is not so much a unit-test but rather a functional test for the application as a whole */
+			/* This is not so much a unit-test but rather a functional test for the application as a whole */
 
-            Debug.WriteLine("Debug version of TestStationRouterPlanner is executing..");
+			Debug.WriteLine("Debug version of TestStationRouterPlanner is executing..");
 
 			List<StationNode> stationNodes = new List<StationNode>() {  new StationNode("A"),
 																		new StationNode("B"),
