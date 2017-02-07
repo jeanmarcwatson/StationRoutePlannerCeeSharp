@@ -50,13 +50,18 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="TestStationRouterPlanner.cs" />
+    <Compile Include="DirectedGraphTests.cs" />
+    <Compile Include="NodeTests.cs" />
+    <Compile Include="StationDirectedGraphTests.cs" />
+    <Compile Include="StationNodeTests.cs" />
+    <Compile Include="StationRouteTests.cs" />
+    <Compile Include="TestStationRouterPlannerHolisticTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StationRoutePlanner\StationRoutePlanner.csproj">
+    <ProjectReference Include="..\StationRoutePlanner\StationRoutePlannerCeeSharp.csproj">
       <Project>{8aaa8b20-347a-4c90-913a-287122ec88a7}</Project>
-      <Name>StationRoutePlanner</Name>
+      <Name>StationRoutePlannerCeeSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

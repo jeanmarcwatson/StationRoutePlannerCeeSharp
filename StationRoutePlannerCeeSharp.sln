@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationRoutePlanner", "StationRoutePlanner\StationRoutePlanner.csproj", "{8AAA8B20-347A-4C90-913A-287122EC88A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationRoutePlannerCeeSharp", "StationRoutePlanner\StationRoutePlannerCeeSharp.csproj", "{8AAA8B20-347A-4C90-913A-287122EC88A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationRoutePlannerUnitTests", "StationRoutePlannerUnitTests\StationRoutePlannerUnitTests.csproj", "{EAA0AA48-50F7-47B2-977C-3C08EC1A8D1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationRoutePlannerCeeSharpUnitTests", "StationRoutePlannerUnitTests\StationRoutePlannerCeeSharpUnitTests.csproj", "{EAA0AA48-50F7-47B2-977C-3C08EC1A8D1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

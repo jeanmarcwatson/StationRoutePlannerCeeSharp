@@ -12,6 +12,15 @@ namespace StationPlanner
 		// List of known paths in a handy encapsulated package with helpers
 		List<StationRoute> discoveredRoutes = new List<StationRoute>();
 
+        public List<StationRoute> DiscoveredRoutes
+        {
+            get
+            {
+                return discoveredRoutes;
+            }
+        }
+
+
 		public StationDirectedGraph(List<StationNode> nodes) : base(nodes)
 		{
 		}

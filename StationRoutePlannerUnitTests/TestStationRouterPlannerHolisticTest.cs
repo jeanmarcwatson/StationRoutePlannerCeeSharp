@@ -7,11 +7,13 @@ using System.Diagnostics;
 namespace StationRoutePlannerUnitTests
 {
 	[TestClass]
-	public class TestStationRouterPlanner
+	public class TestStationRouterPlannerHolisticTest
 	{
 		[TestMethod]
-		public void TestStationPlanner()
+		public void TestStationPlannerHolisticFunctionality()
 		{
+
+            /* This is not so much a unit-test but rather a functional test for the application as a whole */
 
             Debug.WriteLine("Debug version of TestStationRouterPlanner is executing..");
 
